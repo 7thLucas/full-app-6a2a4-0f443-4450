@@ -1,0 +1,51 @@
+<style>
+.mode-landscape .sl-layout { flex-direction: row; }
+.mode-portrait .sl-layout { flex-direction: column; }
+.mode-landscape .sl-content { width: 52%; }
+.mode-portrait .sl-content { width: 100%; height: 55%; }
+.mode-landscape .sl-image { width: 48%; }
+.mode-portrait .sl-image { width: 100%; height: 45%; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-layout flex h-full">
+
+    <!-- Content Column -->
+    <div class="sl-content flex flex-col justify-between p-12">
+      <!-- Category label -->
+      <div>
+        <span class="text-xs font-bold tracking-widest uppercase text-amber-600">Home Space Optimizer</span>
+      </div>
+
+      <!-- Headline + tagline -->
+      <div class="flex flex-col gap-5">
+        <h1 class="text-5xl font-extrabold leading-tight text-slate-900">
+          Your Home,<br>Reimagined.
+        </h1>
+        <p class="text-base text-slate-600 max-w-xs leading-relaxed">
+          AI-powered interior guidance — the design intelligence of a professional, at a fraction of the cost.
+        </p>
+        <div class="flex items-center gap-3 mt-1">
+          <div class="h-1 w-10 rounded-full bg-amber-500"></div>
+          <span class="text-sm font-semibold text-slate-500">No designer fees. Real results.</span>
+        </div>
+      </div>
+
+      <!-- Attribution -->
+      <div>
+        <data-attribution />
+      </div>
+    </div>
+
+    <!-- Image Column -->
+    <div class="sl-image relative overflow-hidden">
+      <img
+        src="https://api-stag.qb-deck.quantumbyte.ai/common/image-generation?prompt=beautiful%20modern%20living%20room%20interior%2C%20warm%20natural%20lighting%2C%20perfectly%20arranged%20furniture%2C%20soft%20earthy%20tones%2C%20airy%20and%20inviting%2C%20editorial%20interior%20photography%2C%20high-end%20residential"
+        alt="Beautifully optimised living space"
+        class="w-full h-full object-cover"
+      />
+      <!-- Gradient overlay so image fades into white on the left edge -->
+      <div class="absolute inset-y-0 left-0 w-16 bg-gradient-to-r from-white to-transparent"></div>
+    </div>
+
+  </div>
+</section>
