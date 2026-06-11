@@ -4,7 +4,11 @@
 A web and mobile application that empowers homeowners and renters to optimize and transform their living spaces through intelligent, AI-powered guidance — without the high cost of hiring a professional interior designer.
 
 ## The Problem
-Professional interior designers charge $2,000–$10,000+ per project, putting expert space design out of reach for most households. The result: underutilized rooms, awkward furniture placement, poor lighting choices, and homes that simply don't function as well as they could — all because people lack accessible, personalized guidance.
+Most people don't realize their home discomfort has a design cause. They feel vague symptoms — stress, a sense of not having enough space, rooms that just don't "work" — without ever connecting those feelings to inefficient use of the space they already have. Interior design remains an invisible problem: people can't fix something they can't diagnose.
+
+A secondary layer compounds this: even once someone suspects a layout problem, professional interior designers charge $2,000–$10,000+ per project, putting expert guidance out of reach for most households.
+
+The app must therefore do two things: **first help users see the problem**, then help them solve it.
 
 ## The Solution
 An accessible home space optimization platform that delivers interior design intelligence on demand:
